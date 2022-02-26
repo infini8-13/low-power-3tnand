@@ -4,12 +4,12 @@ This repository presents the design of three-transistor(3T) NAND Gate implemente
 ## Task List - Table of Contents
 - [ ] Introduction  
 - [ ] 3T NAND  
-- [ ] Tools Used  
+- [x] Tools Used  
 - [ ] Pre-Layout Schematics and Simulations  
 - [ ] Netlist of the Circuit  
 - [ ] Observations  
-- [ ] Author  
-- [ ] Acknowledgements  
+- [x] Author  
+- [x] Acknowledgements  
 - [ ] References  
 
 
