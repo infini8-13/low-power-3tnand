@@ -43,9 +43,10 @@ This repository presents the design of three-transistor(3T) NAND Gate implemente
 L N Saaswath, Junior Undergraduate @ Department of Electrical Engineering, IIT(BHU) Varanasi.
 
 ## Acknowledgements  
-• Cloud Based Analog IC Design Hackathon  
-• Synopsys India  
-• VLSI System Design (VSD) Corp. Pvt. Ltd India  
+• [Cloud Based Analog IC Design Hackathon](https://hackathoniith.in/)  
+• [Synopsys India](https://www.synopsys.com/)  
+• [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)    
 
 
 ## References
+
