@@ -2,22 +2,32 @@
 This repository presents the design of three-transistor(3T) NAND Gate implemented using Synopsis Custom Compiler on 28nm Hybrid CMOS Technology.
 
 ## Task List - Table of Contents
-- [ ] Introduction  
-- [ ] 3T NAND  
-- [x] Tools Used  
-- [ ] Pre-Layout Schematics and Simulations  
-- [ ] Netlist of the Circuit  
-- [ ] Observations  
-- [x] Author  
-- [x] Acknowledgements  
-- [ ] References  
+- [x] [Introduction](#introduction)  
+- [x] [3T NAND](#3t-nand)  
+- [x] [Tools Used](#tools-used)  
+- [ ] [Pre-Layout Schematics and Simulations](#pre-layout-schematics-and-simulations)  
+- [ ] [Netlist of the Circuit](#netlist-of-the-circuit)  
+- [ ] [Observations](#observations)  
+- [x] [Author](#author)  
+- [x] [Acknowledgements](#acknowledgements)  
+- [ ] [References](#references)  
 
 
 ## Introduction  
-
+Energy efficiency is one of the most sought features for modern electronic systems designed for high-performance and portable applications. NAND Gate is the most preferred universal gate since it occupies less area and offers minor delay than NOR when designed with CMOS Technology and is used numerous times in other gates and integrated circuits. This paper proposes the design of three transistor-based NAND gates with the same output logic as the primary CMOS NAND Gate. 
+The proposed method will demonstrate better performance in low-power consumption, reduced area, and higher speeds, the characteristics most sought after in VLSI circuits for low-power System-on-Chip (SoC) applications.
 
 ## 3T NAND  
+The basic NAND using CMOS only is 4T CMOS. The proposed design of three transistor NAND is based on modified CMOS inverter and PMOS pass-transistor logic. The reference circuit will be implemented in 28nm technology.
 
+When input A is at logic one, the inverter on the
+left (M1 and M3) functions as a normal CMOS inverter.
+Therefore, the output is the complement of input B. When
+the input A is at logic zero, the CMOS inverter output is
+at high impedance. However, the PMOS pass-transistor
+M2 is turned ON and the output gets the logic value as
+logic 1 (VDD). The operation of the whole circuit could
+be explained like a 2 input NAND gate.
 
 ## Tools Used  
 • Synopsys Custom Compiler:    
