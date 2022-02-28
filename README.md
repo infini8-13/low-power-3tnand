@@ -6,11 +6,11 @@ This repository presents the design of three-transistor(3T) NAND Gate implemente
 - [x] [3T NAND](#3t-nand)  
 - [x] [Tools Used](#tools-used)  
 - [ ] [Pre-Layout Schematics and Simulations](#pre-layout-schematics-and-simulations)  
-- [ ] [Netlist of the Circuit](#netlist-of-the-circuit)  
+- [x] [Netlist of the Circuit](#netlist-of-the-circuit)  
 - [ ] [Observations](#observations)  
 - [x] [Author](#author)  
 - [x] [Acknowledgements](#acknowledgements)  
-- [ ] [References](#references)  
+- [x] [References](#references)  
 
 
 ## Introduction  
@@ -59,4 +59,7 @@ L N Saaswath, Junior Undergraduate @ Department of Electrical Engineering, IIT(B
 
 
 ## References
-
+[1] Chandrakasan A.P. Sheng S. Brodersen R.W.: "Low-power CMOS digital design", IEEE Journal of Solid-State Circuits, Volume 27, Issue 4, April 1992 pp. 473 -- 484.  
+[2] Verma N. Kwong J. Chandrakasan A.P.: "Nanometer MOSFET Variation in Minimum Energy Subthreshold Circuits", IEEE Transactions on Electron Devices, Vol. 55, NO. 1, January 2008, pp. 163 -- 174.  
+[3] Y. Berg, D. T. Wisland and T. S. Lande: "Ultra LowVoltage/Low-Power Digital Floating-Gate Circuits", IEEE Transactions on Circuits and Systems, vol. 46, No. 7, pp. 930– 936, July 1999.  
+[4] Priya, M.  Kaliaperumal, Baskaran. (2013). A Novel Low Power 3 Transistor based Universal Gate for VLSI Applications. Journal of scientific and industrial research. 72. pp. 217-221.   
