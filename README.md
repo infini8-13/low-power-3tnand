@@ -75,7 +75,8 @@ Refer to the netlist of the NAND Gate simulation [here](src/3tnand-schematic-net
 ## Acknowledgements  
 • [Cloud Based Analog IC Design Hackathon](https://hackathoniith.in/)  
 • [Synopsys India](https://www.synopsys.com/)  
-• [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)    
+• [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+• Sumanto Kar, IIT B
 
 
 ## References
