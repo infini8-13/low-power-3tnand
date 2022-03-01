@@ -59,7 +59,7 @@ Netlist of the NAND Gate can be found [here](src/3tnand-schematic-netlist.sp), a
 
 
 ## Author  
-L N Saaswath, Junior Undergraduate @ Department of Electrical Engineering, IIT(BHU) Varanasi.
+[L N Saaswath](https://www.linkedin.com/in/lnsaaswath/), Junior Undergraduate @ Department of Electrical Engineering, IIT(BHU) Varanasi.
 
 ## Acknowledgements  
 • [Cloud Based Analog IC Design Hackathon](https://hackathoniith.in/)  
