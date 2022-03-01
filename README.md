@@ -7,7 +7,6 @@ This repository presents the design of three-transistor(3T) NAND Gate implemente
 - [Tools Used](#tools-used)  
 - [Pre-Layout Schematics and Simulations](#pre-layout-schematics-and-simulations)  
 - [Netlist of the Circuit](#netlist-of-the-circuit)  
-- [Observations](#observations)  
 - [Author](#author)  
 - [Acknowledgements](#acknowledgements)  
 - [References](#references)  
@@ -19,6 +18,11 @@ The proposed method will demonstrate better performance in low-power consumption
 
 ## 3T NAND  
 The basic NAND using CMOS only is 4T CMOS. The proposed design of three transistor NAND is based on modified CMOS inverter and PMOS pass-transistor logic. The reference circuit will be implemented in 28nm technology.
+
+<p align="center">
+  <img src="images/nand3t-ref.png">
+</p>
+<h4 align="center">Fig. 1 - 3T NAND</h4> &nbsp;&nbsp;
 
 When input A is at logic one, the inverter on the
 left (M1 and M3) functions as a normal CMOS inverter.
@@ -41,22 +45,29 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 
 
 ## Pre-Layout Schematics and Simulations  
+### Schematic:
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54203063/156133828-e244cf7d-6bb5-4a1a-83cd-5658a9396af4.png">
+  <img src="images/nand-schematic.png">
 </p>
-<h4 align="center">Fig. 1 - 3T NAND Schematic</h4> &nbsp;&nbsp;
-
-
+<h4 align="center">Fig. 2 - 3T NAND Schematic</h4> &nbsp;&nbsp;  
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54203063/156133872-4d67e139-cc9e-49b8-9b54-194b5507b7c8.png">
-</p>  
-<h4 align="center">Fig. 2 - 3T NAND Testbench with it's Symbol</h4> 
+  <img src="images/nand-symbol.png">
+</p>
+<h4 align="center">Fig. 3 - 3T NAND Symbol</h4> &nbsp;&nbsp;
+<p align="center">
+  <img src="images/testbench.png">
+</p>
+<h4 align="center">Fig. 4 - 3T NAND Testbench</h4> &nbsp;&nbsp;
+
+### Simulation:  
+#### Transient Analysis:  
+<p align="center">
+  <img src="images/vdd_1.6v.png">
+</p>
+<h4 align="center">Fig. 5 - Input-Output Waveform of 3TNAND Testbench @ VDD = 1.6V</h4>  
 
 ## Netlist of the Circuit  
-Netlist of the NAND Gate can be found [here](src/3tnand-schematic-netlist.sp), and the Netlist of the testbench circuit [here](src/3tnand-testbench-netlist.sp).  
-
-## Observations  
-
+Refer to the netlist of the NAND Gate simulation [here](src/3tnand-schematic-netlist.sp)  
 
 ## Author  
 [L N Saaswath](https://www.linkedin.com/in/lnsaaswath/), Junior Undergraduate @ Department of Electrical Engineering, IIT(BHU) Varanasi.
