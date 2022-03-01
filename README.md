@@ -41,11 +41,16 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 
 
 ## Pre-Layout Schematics and Simulations  
-![Screenshot 2022-02-28 234819](https://user-images.githubusercontent.com/54203063/156133828-e244cf7d-6bb5-4a1a-83cd-5658a9396af4.png)  
-**Fig. 1 - 3T NAND Schematic**  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54203063/156133828-e244cf7d-6bb5-4a1a-83cd-5658a9396af4.png">
+</p>
+<h4 align="center">Fig. 1 - 3T NAND Schematic</h4> &nbsp;&nbsp;
 
-![Screenshot 2022-02-28 234701](https://user-images.githubusercontent.com/54203063/156133872-4d67e139-cc9e-49b8-9b54-194b5507b7c8.png)  
-**Fig. 2 - 3T NAND Testbench with it's Symbol**  
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54203063/156133872-4d67e139-cc9e-49b8-9b54-194b5507b7c8.png">
+</p>  
+<h4 align="center">Fig. 2 - 3T NAND Testbench with it's Symbol</h4> 
 
 ## Netlist of the Circuit  
 Netlist of the NAND Gate can be found [here](src/3tnand-schematic-netlist.sp), and the Netlist of the testbench circuit [here](src/3tnand-testbench-netlist.sp).  
