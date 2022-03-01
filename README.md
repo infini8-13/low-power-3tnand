@@ -1,5 +1,5 @@
 # Low-Power 3T NAND for SoC Apps
-This repository presents the design of three-transistor(3T) NAND Gate implemented using Synopsis Custom Compiler on 28nm Hybrid CMOS Technology.
+This repository presents the design of three-transistor(3T) NAND Gate implemented using Synopsis Custom Compiler on 28nm Hybrid CMOS Technology. Please find the literature [survey here]()
 
 ## Table of Contents
 - [Introduction](#introduction)  
@@ -75,7 +75,7 @@ Refer to the netlist of the NAND Gate simulation [here](src/3tnand-schematic-net
 ## Acknowledgements  
 • [Cloud Based Analog IC Design Hackathon](https://hackathoniith.in/)  
 • [Synopsys India](https://www.synopsys.com/)  
-• [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+• [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)  
 • Sumanto Kar, IIT B
 
 
