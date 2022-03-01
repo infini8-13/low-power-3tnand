@@ -1,16 +1,16 @@
 # Low-Power 3T NAND for SoC Apps
 This repository presents the design of three-transistor(3T) NAND Gate implemented using Synopsis Custom Compiler on 28nm Hybrid CMOS Technology.
 
-## Task List - Table of Contents
-- [x] [Introduction](#introduction)  
-- [x] [3T NAND](#3t-nand)  
-- [x] [Tools Used](#tools-used)  
-- [ ] [Pre-Layout Schematics and Simulations](#pre-layout-schematics-and-simulations)  
-- [x] [Netlist of the Circuit](#netlist-of-the-circuit)  
-- [ ] [Observations](#observations)  
-- [x] [Author](#author)  
-- [x] [Acknowledgements](#acknowledgements)  
-- [x] [References](#references)  
+## Table of Contents
+- [Introduction](#introduction)  
+- [3T NAND](#3t-nand)  
+- [Tools Used](#tools-used)  
+- [Pre-Layout Schematics and Simulations](#pre-layout-schematics-and-simulations)  
+- [Netlist of the Circuit](#netlist-of-the-circuit)  
+- [Observations](#observations)  
+- [Author](#author)  
+- [Acknowledgements](#acknowledgements)  
+- [References](#references)  
 
 
 ## Introduction  
@@ -44,7 +44,7 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 
 
 ## Netlist of the Circuit  
-
+Netlist of the NAND Gate can be found [here](src/), and the Netlist of the testbench circuit [here]().  
 
 ## Observations  
 
